@@ -12,7 +12,7 @@
 #ifndef FDF_H
 # define FDF_H
 
-#include <mlx.h>
+#include "mlx/mlx.h"
 #include "libft/libft.h"
 #include <sys/types.h>
 #include <sys/stat.h>

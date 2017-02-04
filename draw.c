@@ -64,9 +64,9 @@ void	ft_draw_iso(t_info *i, t_point a, t_point b, double cst[2])
 	if (a.z + b.z >= 42)
 		color = 0x0000FF;
 	ft_scale(i, &a, &b);
-	a.x += 300 + cst[0] * a.x - cst[1] * a.y;
-	a.y += 300 + a.z + (cst[0] / 2) * a.x + (cst[0] / 2) * a.y;
-	b.x += 300 + cst[0] * b.x - cst[1] * b.y;
-	b.y += 300 + b.z + (cst[0] / 2) * b.x + (cst[0] / 2) * b.y;
+	a.x += 100 + cst[0] * a.x - cst[1] * a.y;
+	a.y += 100 + a.z + (cst[0] / 2) * a.x + (cst[0] / 2) * a.y;
+	b.x += 100 + cst[0] * b.x - cst[1] * b.y;
+	b.y += 100 + b.z + (cst[0] / 2) * b.x + (cst[0] / 2) * b.y;
 	ligne(i, a, b, color);
 }

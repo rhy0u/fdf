@@ -36,8 +36,8 @@ int		main(int ac, char **av)
 	if (ac != 2)
 		return (0);
 	mlx = mlx_init();
-	info.sizeimg.x = 1200;
-	info.sizeimg.y = 1200;
+	info.sizeimg.x = 1000;
+	info.sizeimg.y = 1000;
 	info.size.y = nb_ligne(av[1]);
 	map = getmap(av[1], info.size.y, &info.size.x);
 	printf("size : [%d,%d]\n", info.size.x, info.size.y);
